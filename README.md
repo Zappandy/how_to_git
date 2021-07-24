@@ -7,6 +7,8 @@
 ## [Pro Git: Official Documentation](https://git-scm.com/book/en/v2)
 
 - Quick [video tips](https://git-scm.com/videos)
+- [External Resources](https://git-scm.com/doc/ext)
+- [Documentation](https://git-scm.com/docs)
 
 
 ## Karl Brotman's Git Tutorial
@@ -14,6 +16,12 @@
 [General guide](https://kbroman.org/github_tutorial/)
 
 [Initializing repos](https://kbroman.org/github_tutorial/pages/init.html)
+
+## Additional Resources
+
+https://www.gitkraken.com/blog/best-courses-learn-git
+
+https://medium.com/javarevisited/7-best-courses-to-master-git-and-github-for-programmers-d671859a68b2
 
 ## W3Schools
 

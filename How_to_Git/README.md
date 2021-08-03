@@ -10,4 +10,6 @@ Setting up name and email can be pretty straightforward, but what may matter is 
 - git add FILE
 - git commit
 
-RTESTING
+## 6. Staging the changes
+
+A git add can be reverted via git reset. Git reset won't undo commits or pushes

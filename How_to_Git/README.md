@@ -20,3 +20,4 @@ git config core.editor "vim"
 
 A git add can be reverted via git reset. Git reset won't undo commits or pushes
 
+tito

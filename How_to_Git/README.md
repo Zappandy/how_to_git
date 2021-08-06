@@ -20,3 +20,9 @@ git config core.editor "vim"
 
 A git add can be reverted via git reset. Git reset won't undo commits or pushes
 
+## 10. History
+
+git log 
+
+We can get a simplified log to only yield the commit's key and the commit message.
+

@@ -24,5 +24,16 @@ A git add can be reverted via git reset. Git reset won't undo commits or pushes
 
 git log 
 
-We can get a simplified log to only yield the commit's key and the commit message.
+We can get a simplified log to only yield the commit's key and the commit message by using...
 
+**git log --pretty=oneline**
+
+This can be manipulated further with options like 
+
+```
+git log --pretty=oneline --max-count=2
+git log --pretty=oneline --since='5 minutes ago'
+git log --pretty=oneline --until='5 minutes ago'
+git log --pretty=oneline --author=<your name>
+git log --pretty=oneline --all
+```

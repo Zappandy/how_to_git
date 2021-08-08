@@ -23,6 +23,10 @@ https://www.gitkraken.com/blog/best-courses-learn-git
 
 https://medium.com/javarevisited/7-best-courses-to-master-git-and-github-for-programmers-d671859a68b2
 
+https://stackoverflow.com/questions/4089430/how-can-i-determine-the-url-that-a-local-git-repository-was-originally-cloned-fr
+
+https://stackoverflow.com/questions/1057564/pretty-git-branch-graphs
+
 ## W3Schools
 
 https://www.w3schools.com/GIT/git_security_ssh.asp

@@ -37,3 +37,14 @@ git log --pretty=oneline --until='5 minutes ago'
 git log --pretty=oneline --author=<your name>
 git log --pretty=oneline --all
 ```
+### Fancy formatting
+
+git log --all --pretty=format:"%h %cd %s [%an]" --since='7 days ago'
+git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
+
+- %h is the abbreviated hash of the commit
+- %d commit decorations (e.g. branch heads or tags)
+- %ad is the commit date
+- %s is the comment
+- --graph tells git to display the commit tree in the form of an ASCII graph layout
+- --date=short keeps the date format short and nice

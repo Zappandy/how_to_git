@@ -44,7 +44,7 @@ git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
 
 - %h is the abbreviated hash of the commit
 - %d commit decorations (e.g. branch heads or tags)
-- %ad is the commit date
+- %ad is the commit date (%cd is also date, are they the same?)
 - %s is the comment
 - %an author's name
 - --graph tells git to display the commit tree in the form of an ASCII graph layout

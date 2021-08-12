@@ -46,5 +46,16 @@ git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
 - %d commit decorations (e.g. branch heads or tags)
 - %ad is the commit date
 - %s is the comment
+- %an author's name
 - --graph tells git to display the commit tree in the form of an ASCII graph layout
 - --date=short keeps the date format short and nice
+
+## 11. Aliases
+Set up your .gitconfig, if you want to give [aliases to your commands](https://githowto.com/aliases).
+Check the *hist* alias in this section to see the long git log command used throughout these lessons. Hereto we can find it anyway, though.
+
+```
+hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+```
+# 12. Getting older versions (checkout)
+

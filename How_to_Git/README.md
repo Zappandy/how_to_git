@@ -63,4 +63,8 @@ In the .gitconfig the " must be escaped with a \
 Other interesting commands given aliases are **cat-file -t** and **cat-file -p**
 # 12. Getting older versions (checkout)
 
+Using this log
 
+git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
+
+we can access the hash values(%h) of the commits. The earlier ones will come last, we can travel back in time and see how the branch as well as files used to look back then!

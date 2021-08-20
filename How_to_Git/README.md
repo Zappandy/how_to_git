@@ -57,6 +57,8 @@ Check the *hist* alias in this section to see the long git log command used thro
 
 ```
 hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+
+Other interesting commands given aliases are **cat-file -t** and **cat-file -p**
 ```
 # 12. Getting older versions (checkout)
 

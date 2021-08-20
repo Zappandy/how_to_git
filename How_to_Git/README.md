@@ -71,4 +71,6 @@ we can access the hash values(%h) of the commits. The earlier ones will come las
 
 for instance, access first commit...
 
+```
 git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short | tail -n1 | awk '{print $1}'
+```

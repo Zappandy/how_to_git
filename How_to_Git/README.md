@@ -74,3 +74,9 @@ for instance, access first commit...
 ```
 git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short | tail -n1 | awk '{print $1}'
 ```
+
+Careful with leaving a detached head. Yes you may perform
+
+git checkout <hash>
+  
+but always try to go back to **git checkout master**

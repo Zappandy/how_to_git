@@ -40,6 +40,7 @@ git log --pretty=oneline --all
 ### Fancy formatting
 
 git log --all --pretty=format:"%h %cd %s [%an]" --since='7 days ago'
+
 git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
 
 - %h is the abbreviated hash of the commit

@@ -68,3 +68,7 @@ Using this log
 git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
 
 we can access the hash values(%h) of the commits. The earlier ones will come last, we can travel back in time and see how the branch as well as files used to look back then!
+
+for instance, access first commit...
+
+git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short | tail -n1 | awk '{print $1}'

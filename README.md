@@ -39,3 +39,7 @@ https://unix.stackexchange.com/questions/48863/ssh-add-complains-could-not-open-
 ## Store local changes stash
 
 https://stackoverflow.com/questions/10414769/git-pull-keeping-local-changes
+
+## More commands
+
+https://kuprienko.info/useful-git-commands/

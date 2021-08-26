@@ -80,3 +80,7 @@ Careful with leaving a detached head. Yes you may perform
 git checkout <hash>
   
 but always try to go back to **git checkout master**
+
+# !3. Git Tags
+
+Added a new v1 tag

@@ -43,3 +43,7 @@ https://stackoverflow.com/questions/10414769/git-pull-keeping-local-changes
 ## More commands
 
 https://kuprienko.info/useful-git-commands/
+
+## Good gitignore python practices
+
+https://stackabuse.com/differences-between-pyc-pyd-and-pyo-python-files/

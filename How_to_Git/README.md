@@ -87,7 +87,6 @@ Added a new v1 tag with
 ```git
 git tag v1
 ```
-
 They have to be pushed to the actual github repo with **git push --tags \<remote\>**. But if we are pushing to origin, we can ignore the \<remote\> part
 
 When we push the tags we get the following output
@@ -98,3 +97,5 @@ Total 0 (delta 0), reused 0 (delta 0)
 To github.com:Zappandy/how_to_git.git 
 * [new tag]         v1 -> v1  
 ```
+
+The generated tag, which was performed with **git tag v1** fetched the previous hash as a reference point!

@@ -81,6 +81,11 @@ git checkout <hash>
   
 but always try to go back to **git checkout master**
 
-# !3. Git Tags
+# 13. Git Tags
 
-Added a new v1 tag
+Added a new v1 tag with  
+```git
+git tag v1
+```
+
+They have to be pushed to the actual github repo with **git push --tags <remote>**. But if we are pushing to origin, we can ignore the \<remote\> part

@@ -44,6 +44,9 @@ https://stackoverflow.com/questions/10414769/git-pull-keeping-local-changes
 
 https://kuprienko.info/useful-git-commands/
 
+https://campus.datacamp.com/courses/introduction-to-git/undo?ex=5
+
 ## Good gitignore python practices
 
 https://stackabuse.com/differences-between-pyc-pyd-and-pyo-python-files/
+

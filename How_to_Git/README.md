@@ -101,3 +101,5 @@ To github.com:Zappandy/how_to_git.git
 The generated tag, which was performed with **git tag v1** fetched the previous hash as a reference point!
 
 ## Tags for previous versions
+
+We have previously updated the repo, so we can now **git checkout v1** to go to that snapshot

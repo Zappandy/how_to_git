@@ -99,3 +99,5 @@ To github.com:Zappandy/how_to_git.git
 ```
 
 The generated tag, which was performed with **git tag v1** fetched the previous hash as a reference point!
+
+## Tags for previous versions

@@ -102,4 +102,13 @@ The generated tag, which was performed with **git tag v1** fetched the previous 
 
 ## Tags for previous versions
 
-We have previously updated the repo, so we can now **git checkout v1** to go to that snapshot
+We have previously updated the repo, so we can now **git checkout v1** to go to that snapshot. In this case, the hash would be *2837c0b*.
+
+If we want to go to the last hash before the tag, we can use the following commands:
+
+```git
+git checkout v1^ # one hash in the past from MAIN BRANCH
+git checkout v1~1 # one hash in the past from MAIN BRANCH
+git checkout v1~2 # two hashes in the past from MAIN BRANCH
+```
+I personally prefer the second notation to specify the number of hashes in the past. This is only following the main branch, though. Any sub-branches won't be counted. There may be a way, but we'll look into this later

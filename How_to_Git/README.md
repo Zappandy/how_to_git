@@ -112,3 +112,5 @@ git checkout v1~1 # one hash in the past from MAIN BRANCH
 git checkout v1~2 # two hashes in the past from MAIN BRANCH
 ```
 I personally prefer the second notation to specify the number of hashes in the past. This is only following the main branch, though. Any sub-branches won't be counted. There may be a way, but we'll look into this later
+
+Of course tags can be created in past commits and we can still refer back to them. This can be really useful in software development

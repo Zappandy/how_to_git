@@ -50,3 +50,6 @@ https://campus.datacamp.com/courses/introduction-to-git/undo?ex=5
 
 https://stackabuse.com/differences-between-pyc-pyd-and-pyo-python-files/
 
+## Good development practices
+
+https://dev.to/lostintangent/10-awesome-things-you-can-do-with-github-dev-5fm7

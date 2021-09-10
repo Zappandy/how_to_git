@@ -117,8 +117,13 @@ Of course tags can be created in past commits and we can still refer back to the
 
 We can look at the list of our tags with **git tag**
 
-# 14.
+# 14. Undoing local changes
 
-# 15.
+**Before they are staged, we can go in the working directory and perform a **git checkout FILE** to return the file to its previous state
 
+# 15. Cancel Staged Changes (before committing)
+
+We can reset the buffer zone with 
+```git
 git restore --staged README.md
+```

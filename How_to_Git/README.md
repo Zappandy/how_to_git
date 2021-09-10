@@ -124,6 +124,16 @@ We can look at the list of our tags with **git tag**
 # 15. Cancel Staged Changes (before committing)
 
 We can reset the buffer zone with 
+
 ```git
 git restore --staged README.md
 ```
+This is simplifying these steps:
+```git
+git reset HEAD file
+git checkout file
+```
+
+# 16. Cancelling commits
+
+

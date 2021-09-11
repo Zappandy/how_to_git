@@ -127,6 +127,7 @@ We can reset the buffer zone with
 
 ```git
 git restore --staged README.md
+git checkout file
 ```
 This is simplifying these steps:
 ```git

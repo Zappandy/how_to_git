@@ -61,7 +61,7 @@ hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 In the .gitconfig the " must be escaped with a \
 
 Other interesting commands given aliases are **cat-file -t** and **cat-file -p**
-# 12. Getting older versions (checkout)
+## 12. Getting older versions (checkout)
 
 Using this log
 
@@ -81,7 +81,7 @@ git checkout <hash>
   
 but always try to go back to **git checkout master**
 
-# 13. Git Tags
+## 13. Git Tags
 
 Added a new v1 tag with  
 ```git
@@ -117,11 +117,11 @@ Of course tags can be created in past commits and we can still refer back to the
 
 We can look at the list of our tags with **git tag**
 
-# 14. Undoing local changes
+## 14. Undoing local changes
 
 Before they are staged, we can go in the working directory and perform a **git checkout FILE** to return the file to its previous state
 
-# 15. Cancel Staged Changes (before committing)
+## 15. Cancel Staged Changes (before committing)
 
 We can reset the buffer zone with 
 
@@ -135,6 +135,6 @@ git reset HEAD file
 git checkout file
 ```
 
-# 16. Cancelling commits
+## 16. Cancelling commits
 
 

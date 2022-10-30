@@ -1,5 +1,7 @@
 # Resources to use Git
 
+[Interactive tool](https://learngitbranching.js.org/)
+
 ## [How to git](https://githowto.com/setup)
 
 1. Preparation

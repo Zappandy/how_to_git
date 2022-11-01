@@ -21,6 +21,8 @@
 
 ## Additional Resources
 
+[git config pull rebase autostash](https://leosiddle.com/posts/2020/07/git-config-pull-rebase-autostash/)
+
 https://www.gitkraken.com/blog/best-courses-learn-git
 
 https://medium.com/javarevisited/7-best-courses-to-master-git-and-github-for-programmers-d671859a68b2

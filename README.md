@@ -1,5 +1,8 @@
 # Resources to use Git
 
+https://medium.com/codex/a-guide-to-becoming-a-git-power-user-4f0090d33e89
+
+
 [Interactive tool](https://learngitbranching.js.org/)
 
 ## [How to git](https://githowto.com/setup)
